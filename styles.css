@@ -17,9 +17,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80vw;
+    width: 90vw;
     max-width: 600px;
-    margin: 120px auto 0 auto;
+    margin: 80px auto 0 auto;
   }
   
   .share-button{
