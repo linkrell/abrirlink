@@ -1,61 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
-
-* {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    color: #FFF;
-    font-family: 'Karla', sans-serif;
-}
-
-:root {
-    --bgcolor : #69239e;
-    --accentcolor: #2f5add;
-}
-
-body {
-    background-color: var(--bgcolor);
-}
-
-.link-tree {
+  }
+  
+  
+  body{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 90vw;
-    margin: 40px auto;
-    gap: 20px;
-}
-.link-tree img {
-    width: 150px;
-    height: 150px;
+    width: 80vw;
+    max-width: 600px;
+    margin: 120px auto 0 auto;
+  }
+  
+  .share-button{
+    display: flex;
+    align-self: flex-end;
+    color: #fff;
+  }
+  
+  .share-icon{
+    font-size: 32px;
+    background-color: #222;
+    padding: 12px;
     border-radius: 50%;
-}
-.link-tree h1 {
-    font-size: 2.5rem;
-    text-align: center;
-}
-
-.link-tree a {
-    background-color: var(--accentcolor);
-    color: white;
+   
+  }
+  
+  .img-container{
+    height: 100%;
+    width: 50%;;
+    margin-bottom: 12px;
+  }
+  
+  h1{
+    font-size: 20px;
+    margin-bottom: 32px;
+  }
+  
+  img{
     width: 100%;
-    padding: 15px;
+border-radius: 50%;
+background-size: cover;
+
+  }
+  
+  
+  .link-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 10px 15px;
+    color: #fff;
     text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.1rem;
-    font-weight: bold;
-    border: solid 2px var(--accentcolor);
-    transition: all 0.5s linear;
-}
-
-.link-tree a:hover {
-    background-color: var(--bgcolor);
-    color: var(--accentcolor);
-}
-
-@media (min-width: 1024px) {
-    .link-tree {
-        width: 40vw;
-    }
-}
+    margin-bottom: 24px;
+  }
+  
+  .icons{
+    font-size: 24px;
+  }v
